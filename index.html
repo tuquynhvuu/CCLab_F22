@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <title>CCLab Project</title>
+ 
+  <link rel="stylesheet" type="text/css" href="style.css">
+ 
+  <script src="libraries/p5.min.js"></script>
+  <!-- Uncomment the line below if you use audio. -->
+  <!-- <script src="libraries/p5.sound.min.js"></script> -->
+</head>
+ 
+<body>
+ 
+  <div class="header">
+    <h1>TQ's Sketch Gallery</h1>
+    <h2>Mini Project 7: Particles</h2>
+  </div>
+ 
+  <!-- the following div will contain the p5 canvas. -->
+  <div class="canvasDiv" id="canvasContainer"></div>
+ 
+  <section>
+    <nav>
+      <ul>
+        <li><a href="https://wp.nyu.edu/nyushanghai-tuquynhv/2022/10/30/mini-project-7-particles/">Snowy Night</a></li>
+        <li><a href="https://editor.p5js.org/tuquynhvuu/full/aLVjzCq71">Fullscreen P5.js</a></li>
+        <li><a href="https://editor.p5js.org/tuquynhvuu/sketches/aLVjzCq71">Editor P5.js</a></li>
+      </ul>
+    </nav>
+ 
+    <article>
+      <h3>Particles</h3>
+      <p>For this mini project, the main focus was on particles and manipulating their
+        movements by coding in behaviors and methods. We were to use a class for the
+        particles, and add in at least 3 features to add to its movement, and also to
+        create effects. I wanted to depict a scene of snowfall in the winter. To achieve
+        this, I coded the particles to appear from the top of the screen, and fall to
+        the bottom, where they then reappear, making the motion nonstop. I also wanted
+        the result to be interactive, so I added in the keyPressed feature so that once
+        the key “q” is pressed, then clouds appear, and the particles start to shift
+        right and move faster. I also wanted to create a visual effect where the snow
+        piles at the bottom as each particle falls, but encountered some difficulties
+        with the code. Due to this, I decided to make the appearance give off a facade
+        effect, similar to a gif where each frame restarts. Object oriented programming
+        is when the code is characterized by implementing classes of objects linking them
+        with methods. A class is essentially a template for creating objects, making it
+        more simple to replicate multiple versions of the same object. Object oriented
+        programming is useful when you want to create the same objects, while modifying
+        slight aspects of them; it simplifies the code and saves time. The object I made
+        was snow, using class to define it as Particle. The properties I implemented into
+        the particles include diameter, x speed, and y speed. The methods I used to fulfill
+        my outcome include reappear, slowDown, keyPressed, and pile. Reappear makes it
+        possible for the snow to constantly fall once it disappears from the bottom of the
+        screen. Once the mouse is clicked on the canvas multiple times, slowDown makes it
+        possible for the particles to slow down with every click. I used keyPressed to spawn
+        clouds, while also making the particles shift right and move faster. Pile was used
+        to create the visual effect of snow piling on the ground. This project was quite
+        difficult for me to carry out my initial visual because it was confusing to make
+        the particles have the exact visual effects I wanted. Overall, my project looks
+        quite simple, but it was incredibly difficult to code it properly as I experimented
+        with various trials and errors.
+      </p>
+    </article>
+  </section>
+ 
+   
+ 
+  <footer>
+    <p>Creator: Tu Quynh Vuu (CCLab Fall 22)</p>
+  </footer>
+ 
+ 
+  <!-- the script tag below should always be at the bottom, right before the closing body tag -->
+  <script src="sketch.js"></script>
+</body>
+ 
+</html>
