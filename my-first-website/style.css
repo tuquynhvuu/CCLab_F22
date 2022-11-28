@@ -1,0 +1,19 @@
+body{
+    background-color: lightslategray;
+}
+
+p{
+    font-family: monospace;
+    font-size: 14px;
+
+}
+
+h1{
+    font-family: monospace;
+    font-size: 20px;
+}
+
+h2{
+    font-family: monospace;
+    font-size: 18px;
+}
